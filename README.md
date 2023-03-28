@@ -1,7 +1,7 @@
 #Operating System Process ManagementSimulation
 
 In this homework, you are expected to implement a basic “Operating System
-ProcessManagementSimulation”applicationusingJava.Thishomeworkwillcover
+Process Management Simulation” application using Java.This homework will cover
 the topics given below:
 
 1. Linked Lists
@@ -10,7 +10,7 @@ the topics given below:
 
 Assume that you are designing aprocess management systemfor an operating
 system. In this system, different processes with various priorities “request”
-computingtimefromtheoperatingsystem.Onlyoneprocesscanbecomputedata
+computing time from the operating system. Only one process can be compute data
 given time. In other words, there is no parallel computing.
 
 There are three types of process in the system:
@@ -42,12 +42,12 @@ _}_
 
 
 You can assume that all processes request computation at the same time.The
-computationsshouldbe placedinaqueue-basedstructurewith **aFIFOapproach
+computations should be placed in a queue-based structure with **a FIFO approach
 with priorities.**
 
-Inthissystem, each“ _computation_ ”hasanoccupationtimethatdenoteshowmany
-nanoseconds theoperating systemwillbeoccupied. Yourapplicationshouldkeep
-statisticsabouttheestimatedwaitingtimeforeach _process_ ,andthiswaitingtimeis
+Inthissystem, each“ _computation_ ”has an occupation time that denote show many
+nano seconds the operating system will be occupied. Your application should keep
+statistics about the estimated waiting time for each _process_ ,and this waiting time is
 equal tothe sum of occupation time of all **prior** _computations_.
 
 An **outline** of the Computation class is given below:
@@ -82,9 +82,9 @@ other helper methods
 ```
 // needed time for the computation
 ```
-Youareexpectedtocreate 3 simulations.Eachsimulationshouldhave3,5,and 10
-randomprocessesrespectively.Furthermore,foreachsimulationthereshouldbea
-correspondingprioritycomputationqueue.Thesimulationsshouldbeconnectedto
+You are expected to create 3 simulations. Each simulation should have 3, 5, and 10
+random processes respectively. Furthermore, for each simulation there should be a
+corresponding priority computation queue. The simulations should be connected to
 each other in a linked list fashion.
 
 Your application should print some statistics at theend of each simulation which are:
@@ -100,10 +100,10 @@ Your application should print some statistics at theend of each simulation which
 
 Summary of the Requirements
 
-1. Create 3 simulations(whicharelinkedtoeachother)with3,5,and 10 random
+1. Create 3 simulations (which are linked to each other) with 3, 5, and 10 random
     processes.
 2. Place processes in a list for each simulation.
-3. Createa“computationqueue”foreachsimulationinwhicheachcomputation
+3. Create a “computation queue ” for each simulation in which each computation
     should have a random occupation time (between 1-10ns).
 4. For each simulation, print statistics.
 
