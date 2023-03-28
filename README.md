@@ -1,4 +1,4 @@
-#Operating System Process ManagementSimulation
+#Operating System Process Management Simulation
 
 In this homework, you are expected to implement a basic “Operating System
 Process Management Simulation” application using Java.This homework will cover
